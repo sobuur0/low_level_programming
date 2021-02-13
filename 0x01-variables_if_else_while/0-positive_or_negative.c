@@ -1,28 +1,27 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - entry point
+ *main - entry point
  *
- * Descriptiom: This program generates a random number and 
- * prints on the screen if it is 0, negative or positive
+ *Descriptiom:This program generates a random number and
+ *prints on the screen if it is 0, negative or positive
  *
- * Return: Always 0 (success)
+ *Return: Always 0 (success)
  */
 int main(void)
 {
   int n;
-
   srand(time(0));
   n = rand() - RAND_MAX / 2;
-  if (n==0)
+  if (n == 0)
     {
       printf("%d is zero\n", n);
     }
-  else if (n<0)
+  else if (n < 0)
     {
       printf("%d is negative\n", n);
     }
-  else 
+  else
     {
       printf("%d is positive\n", n);
     }
