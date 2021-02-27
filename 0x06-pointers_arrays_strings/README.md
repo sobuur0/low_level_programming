@@ -1,0 +1,1 @@
+**This repository contains the solutions to the tasks on More pointers, arrays and strings**
